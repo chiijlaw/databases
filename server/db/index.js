@@ -1,11 +1,10 @@
 var mysql = require('mysql');
-var Sequelize = require('sequelize');
+// var Sequelize = require('sequelize');
 
 exports.connection = mysql.createConnection({
     host: 'localhost',
     user: 'student',
     password: 'student',
-    port: '3000',
     database: 'chat'
 });
 
